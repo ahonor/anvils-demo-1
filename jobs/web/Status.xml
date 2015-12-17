@@ -40,6 +40,6 @@
     <nodefilters>
       <filter>tags: www</filter>
     </nodefilters>
-    <group>anvils</group>
+    <group>web</group>
   </job>
 </joblist>

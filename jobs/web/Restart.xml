@@ -4,7 +4,7 @@
     <loglevel>INFO</loglevel>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <jobref name='stop' group='anvils/web'>
+        <jobref name='stop' group='web'>
           <arg line='-dir ${option.dir} -method ${option.method}' />
         </jobref>
         <description>Stop the service</description>
@@ -20,7 +20,7 @@
         </node-step-plugin>
       </command>
       <command>
-        <jobref name='start' group='anvils/web'>
+        <jobref name='start' group='web'>
           <arg line='-dir ${option.dir}' />
         </jobref>
         <description>Start the service</description>
@@ -55,6 +55,6 @@
     <nodefilters>
       <filter>tags: www</filter>
     </nodefilters>
-    <group>anvils/web</group>
+    <group>web</group>
   </job>
 </joblist>

@@ -146,7 +146,7 @@ chown -R apache:rundeck /var/www/html/$PROJECT/{scripts,options,jobs}
 chmod 640 /var/www/html/$PROJECT/jobs/*
 
 # Load the jobs
-for job in /var/www/html/$PROJECT/jobs/*.xml
+for job in $(find /var/www/html/$PROJECT/jobs --name \*.xml)
 do
 	su - rundeck -c "rd-jobs load -f $job"
 done

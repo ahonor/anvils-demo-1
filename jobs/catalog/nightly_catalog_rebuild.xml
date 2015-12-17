@@ -49,6 +49,6 @@ exit $?]]></script>
           <email recipients='bizops@anvils.com' />
         </onsuccess>
       </notification>    
-      <group>anvils/</group>
+      <group>catalog</group>
     </job>
   </joblist>

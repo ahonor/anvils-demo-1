@@ -43,6 +43,6 @@ exit $?]]></script>
         </option>
       </options>
     </context>
-    <group>anvils</group>
+    <group>release</group>
   </job>
 </joblist>

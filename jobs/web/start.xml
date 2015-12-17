@@ -3,7 +3,7 @@
      <name>start</name>  
        <description>start the web servers</description>  
      <loglevel>INFO</loglevel>  
-     <group>anvils/web</group>  
+     <group>web</group>  
     <context> 
       <project>anvils</project> 
          <options> 
