@@ -40,6 +40,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
+        <description>dump-nload</description>
         <script><![CDATA[#!/bin/bash
 set -eu
 CATALOG=$1
