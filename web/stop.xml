@@ -25,6 +25,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
+        <description>Stop it</description>
         <errorhandler keepgoingOnSuccess='true'>
           <scriptargs>${option.dir}</scriptargs>
           <scripturl>http://localhost/anvils/scripts/kill.sh</scripturl>
